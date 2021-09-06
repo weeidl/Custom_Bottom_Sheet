@@ -13,7 +13,7 @@ A action bottom sheet that adapts to the platform.
  Add the package to your pubspec.yaml:
 
  ```yaml
- custom_bottom_sheet: ^1.0.3
+ custom_bottom_sheet: ^1.1.2
  ```
  
  In your dart file, import the library:

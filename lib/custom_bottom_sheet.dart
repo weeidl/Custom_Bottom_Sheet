@@ -2,7 +2,7 @@ library custom_bottom_sheet;
 
 import 'package:flutter/material.dart';
 
-import './pill_gesture.dart';
+import 'src/pill_gesture.dart';
 
 class SlideDialog extends StatefulWidget {
   final Widget child;
