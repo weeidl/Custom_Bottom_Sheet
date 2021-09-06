@@ -21,19 +21,18 @@ iOS | Android
  ```Dart
 import 'package:custom_bottom_sheet/custom_bottom_sheet.dart';
  ``` 
-  Instead of using a `showModalBottomSheet` use `showAdaptiveActionSheet` Widget:
+  Instead of using a `showModalBottomSheet` use `SlideDialog.showSlideDialog` Widget:
 
   ```Dart
-showAdaptiveActionSheet(
-   context: context,
-   title: const Text('Title'),
-   actions: <BottomSheetAction>[
-      BottomSheetAction(title: const Text('Item 1'), onPressed: () {}),
-      BottomSheetAction(title: const Text('Item 2'), onPressed: () {}),
-      BottomSheetAction(title: const Text('Item 3'), onPressed: () {}),
-   ],
-   cancelAction: CancelAction(title: const Text('Cancel')), // onPressed parameter is optional by default will dismiss the ActionSheet
-);
+void customBottomSheet(BuildContext context) {
+    SlideDialog.showSlideDialog(
+      context: context,
+      backgroundColor: Colors.white,
+      pillColor: Colors.yellow,
+      transitionDuration: Duration(milliseconds: 300),
+      child: Text('Your code'),
+    );
+  }
 ```
 
 ### Parameters:
