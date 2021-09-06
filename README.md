@@ -6,7 +6,7 @@ A action bottom sheet that adapts to the platform.
 
 | ![Image](https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/video_readmi.gif) | ![Image](https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/photo_readmi.jpg) |
 | :------------: | :------------: |
-| **TableCalendar** with custom styles | **TableCalendar** with custom builders |
+| **Video** | **Photo** |
 
 ## Getting Started
 
@@ -42,7 +42,6 @@ void customBottomSheet(BuildContext context) {
 * `transitionDuration`: The time of the animation of the appearance and closing.
 * `child`: Pass here the widgets that you want to display.
 
-##
 ### Follow Me
 [![instagram](https://img.shields.io/badge/-instagram-05151e?style=for-the-badge&logo=instagram)](https://www.instagram.com/weeidl/)
 [![Telegram](https://img.shields.io/badge/-Telegram-05151e?style=for-the-badge&logo=Telegram)](https://t.me/weeidl)
