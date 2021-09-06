@@ -6,7 +6,7 @@ A action bottom sheet that adapts to the platform (Android/iOS).
 
 iOS | Android
 --- | ---
-<img width="520" alt="n1" src="https://raw.githubusercontent.com/Daniel-Ioannou/flutter_adaptive_action_sheet/master/assets/ReadMe%20iOS%20Screenshot.png"> | <img width="497" alt="n2" src="https://raw.githubusercontent.com/Daniel-Ioannou/flutter_adaptive_action_sheet/master/assets/ReadMe%20Android%20Screenshot.png">
+<img width="520" alt="n1" src="https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/video_readmi.gif"> | <img width="497" alt="n2" src="https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/photo_readmi.jpg">
 
 ## Getting Started
 
