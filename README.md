@@ -4,9 +4,9 @@
 
 A action bottom sheet that adapts to the platform.
 
-Video | Photo
---- | ---
-<img width="520" alt="n1" src="https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/video_readmi.gif"> | <img width="520" alt="n2" src="https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/photo_readmi.jpg">
+| ![Image](https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/video_readmi.gif) | ![Image](https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/photo_readmi.jpg) |
+| :------------: | :------------: |
+| **TableCalendar** with custom styles | **TableCalendar** with custom builders |
 
 ## Getting Started
 
