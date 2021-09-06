@@ -2,7 +2,7 @@
  
 [![pub package](https://img.shields.io/pub/v/adaptive_action_sheet.svg)](https://pub.dev/packages/custom_bottom_sheet)
 
-A action bottom sheet that adapts to the platform (Android/iOS).
+A action bottom sheet that adapts to the platform.
 
 Video | Photo
 --- | ---
@@ -36,18 +36,8 @@ void customBottomSheet(BuildContext context) {
 ```
 
 ### Parameters:
-#### showAdaptiveActionSheet:
-* `actions`: The Actions list that will appear on the ActionSheet. (required)
-* `cancelAction`: The optional cancel button that show under the actions (grouped separately on iOS).
-* `title`: The optional title widget that show above the actions.
-*  The optional `backgroundColor` and `barrierColor` can be passed in to customize the appearance and behavior of persistent material bottom sheets(Android only).
-
-#### BottomSheetAction:
-* `title`: The primary content of the action sheet item. (required)
-* `onPressed`: The callback that is called when the action item is tapped. (required)
-* `leading`: A widget to display before the title. Typically an Icon widget. (optional)
-* `trailing`: A widget to display after the title. Typically an Icon or a CircleAvatar widget. (optional)
-
-#### CancelAction:
-* `title`: The primary content of the cancel action sheet item. (required)
-* `onPressed`: The callback that is called when the action item is tapped. `onPressed` is optional by default will dismiss the Action Sheet.
+#### SlideDialog.showSlideDialog:
+* `pillColor`: Color for the yellow label at the top of the model sheet.
+* `backgroundColor`: The background of everything is set SlideDialog.showSlideDialog.
+* `transitionDuration`: The time of the animation of the appearance and closing.
+* `child`: Pass here the widgets that you want to display.
