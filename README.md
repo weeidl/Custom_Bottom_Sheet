@@ -4,6 +4,7 @@
 
 A action bottom sheet that adapts to the platform (Android/iOS).
 
+    |
 --- | ---
 <img width="520" alt="n1" src="https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/video_readmi.gif"> | <img width="520" alt="n2" src="https://github.com/weeidl/Custom_Bottom_Sheet/blob/master/image/photo_readmi.jpg">
 
